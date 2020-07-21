@@ -1,0 +1,19 @@
+{
+  "name": "week5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "triangle.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzariaBerry/week5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzariaBerry/week5/issues"
+  },
+  "homepage": "https://github.com/AzariaBerry/week5#readme"
+}
