@@ -1,5 +1,5 @@
 var assert = require('assert');
-
+// make sure var assert = require('assert') is at the top of a test.js
 var triangle = require('../triangle.js');
 
 describe('triangle function', function(){
