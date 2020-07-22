@@ -6,7 +6,7 @@ var artOfwar = {
     description: "The Art of War is an ancient chinese military treatise dating from the Late spring and Autumn period. This book comprises of 13 chapters, which contribute to the teaching of Sun Tzu's ancient chinese military strategist.",
     price: "$15.99",
     seller: "Barnes and Nobles",
-    //methods
+    //methods (they do something)
     buyNow: function(){
         return this.price + " " + this.seller;
     },
