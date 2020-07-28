@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friending app</title>
+    <link rel="stylesheet" href="fake.css">
+</head>
+<body onload="cardMaker()">
+    <h1 class="header">Find your REAL imaginary friend!!</h1>
+    <div id="container">
+        <div id="content">
+            <img src="randomPic" id="image" alt="person"></img>
+            <p id="name"></p>
+            <p id="email"></p>
+            <div id="buttons">
+                <button class="accept" onclick="congrats()">Accept</button>
+                <button class="reject" onclick="cardMaker()">Reject</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+    <!--this is for the faker-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+    <!--links the js file -->
+    <script src="faking.js"></script>
+</body>
+</html>

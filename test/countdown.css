@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/c5/f8/63/c5f8633a2765973f7d6a30dba24c061d.jpg);
+    color:white;
+
+
+}
+
+.countdown{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+#crash{
+    font-size: x-large;
+}
+
+#down{
+    font-size: large;
+    text-transform: uppercase;
+}
+
+#untill{
+    font-size: large;
+    color: white;
+}
