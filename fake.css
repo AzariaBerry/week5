@@ -1,0 +1,40 @@
+body {
+    background-image: url(imagine.jpg);
+    background-size: 35%;
+    background-repeat: round;
+    color:violet;
+
+}
+
+.header {
+    text-align: center;
+    border: double darkviolet;
+    background-color: lavender;
+}
+
+#container {
+    text-align: center;
+    padding: 12px;
+    color:white;
+    font-size: x-large;
+    border: ridge powderblue;
+    background-color: royalblue;
+
+}
+
+#buttons {
+    display: inline;
+    text-align: center;
+    position: center;
+}
+.accept {
+    background-color: greenyellow;
+    color: blueviolet;
+    width: 5%;
+}
+
+.reject {
+    background-color: red;
+    color: white;
+    width: 5%;
+}
