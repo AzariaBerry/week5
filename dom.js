@@ -7,12 +7,14 @@ document.getElementById("Time").style.color = "cyan";
 
 //changes class name
 
-document.getElementById("Space").className = "classSpace"
+
+document.querySelector('li:nth-child(2)').className ="classSpace"
 
 //change text value
 
 
-document.querySelector('li:nth-child(3)').style.color = 'pink';
+
+document.getElementById("Space").nextElementSibling.style.color = 'pink'
 
 document.getElementById("button").addEventListener("click", myButton)
 
